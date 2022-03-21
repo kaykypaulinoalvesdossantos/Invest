@@ -47,6 +47,15 @@ body{
     color: var(--color-dark);
 }
 
+main{
+    display: grid;
+    grid-template-columns: 16rem auto 30rem;
+    gap: 2rem;
+    width: 96%;
+    margin: 1rem auto 4rem;
+}
+
+
 img{
     width: 100%;
 }

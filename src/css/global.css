@@ -139,3 +139,19 @@ small{
     background: #27282f;
     box-shadow: 0 0.8rem 0.8rem rgba(0, 0, 0, 0.2);
 }
+
+.bg-purple-light{
+    background: var(--color-purple-light);
+}
+
+.bg-danger-light{
+    background: var(--color-danger-light);
+}
+
+.bg-primary-light{
+    background: var(--color-primary-light);
+}
+
+.bg-success-light{
+    background: var(--color-success-light);
+}

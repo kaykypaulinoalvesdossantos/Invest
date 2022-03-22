@@ -1,0 +1,63 @@
+/* ========================= RECENT TRANSACTIONS ========================= */
+
+main .recent-transactions{
+    margin-top: 2rem;
+}
+
+main .recent-transactions img{
+    width: 2.2rem;
+}
+
+main .recent-transactions .header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+main .recent-transactions .header a{
+    display: flex;
+    align-items: center;
+    color: var(--color-primary);
+}
+
+
+main .recent-transactions .transaction{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem var(--card-padding);
+    border-radius: var(--card-border-radius);
+    transition: all 300ms ease;
+}
+
+main .recent-transactions .transaction:hover{
+    background: var(--color-white);
+    cursor: pointer;
+}
+
+main .recent-transactions .transaction .service{
+    display: flex;
+    gap: 1rem;
+}
+
+main .recent-transactions .transaction .service .icon{
+    padding: var(--padding-2);
+    border-radius: var(--border-radius-1);
+    display: flex;
+    align-items: center;
+}
+
+main .recent-transactions .card-details{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+main .recent-transactions .card-details .card{
+    display: flex;
+    width: 4.6rem;
+    height: 3rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--border-radius-2);
+}

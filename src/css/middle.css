@@ -25,11 +25,13 @@ main section.middle .cards .card{
     padding: var(--card-padding);
     border-radius: var(--card-border-radius);
     color: white;
-    height: 20rem;
+    height: 16rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     box-shadow: 0 2rem 3rem var(--color-danger-light);
+    transition: all 300ms ease;
+    min-width: 22rem;
 }
 
 main section.middle .cards .card:nth-child(2){

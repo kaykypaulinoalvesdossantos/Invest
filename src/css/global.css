@@ -24,7 +24,13 @@
     --border-radius-1: 1rem;
     --border-radius-2: 6px;
 }
-
+/* dark theme variables */
+.dark-theme{
+    --color-white: #131316;
+    --color-light: #23232a;
+    --color-dark: #ddd;
+    --color-gray-dark: #adacb5;
+}
 *{
     margin: 0;
     padding: 0;

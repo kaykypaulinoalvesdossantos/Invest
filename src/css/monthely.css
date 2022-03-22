@@ -1,0 +1,14 @@
+/* ============================= MONTHELY REPORT =============================*/
+main .monthly-report{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+main .monthly-report h1{
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+

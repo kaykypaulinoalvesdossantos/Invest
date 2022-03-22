@@ -1,114 +1,222 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>iNVEST</title>
-    
+
     <!-- MATERIAL ICONS CDN  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
-    
+
     <!-- GOOGLE FONTS (POPPINS)  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
     <!-- STYLESHHET  -->
     <link rel="stylesheet" href="./src/css/global.css">
     <link rel="stylesheet" href="./src/css/navbar.css">
     <link rel="stylesheet" href="./src/css/sidebar.css">
+    <link rel="stylesheet" href="./src/css/middle.css">
 </head>
+
 <body>
-        <nav>
-            <div class="container">
-                <img src="./src/img/logo.png" alt="Invest brand logo" class="logo">
-                <div class="search-bar">
-                    <span class="material-icons-sharp">search</span>
-                    <input type="search" placeholder="Search">
-                </div>
-                <div class="profile-area">
-                    <div class="theme-btn">
-                        <span class="material-icons-sharp active">light_mode</span>
-                        <span class="material-icons-sharp">dark_mode</span>
-                    </div>
-                    <div class="profile">
-                        <div class="profile-photo">
-                            <img src="./src/img/profile-1.jpg" alt="Profile picture">
-                        </div>
-                        <h5>Kayky Paulino</h5>
-                        <span class="material-icons-sharp">expand_more</span>
-                    </div>
-                    <button id="menu-btn">
-                        <span class="material-icons-sharp">menu</span>
-                    </button>
-                </div>
+    <nav>
+        <div class="container">
+            <img src="./src/img/logo.png" alt="Invest brand logo" class="logo">
+            <div class="search-bar">
+                <span class="material-icons-sharp">search</span>
+                <input type="search" placeholder="Search">
             </div>
-        </nav>
-        <!-- END OF NAVBAR -->
-
-        <main>
-            <aside>
-                <button id="close-btn">
-                    <span class="material-icons-sharp">close</span>
+            <div class="profile-area">
+                <div class="theme-btn">
+                    <span class="material-icons-sharp active">light_mode</span>
+                    <span class="material-icons-sharp">dark_mode</span>
+                </div>
+                <div class="profile">
+                    <div class="profile-photo">
+                        <img src="./src/img/profile-1.jpg" alt="Profile picture">
+                    </div>
+                    <h5>Kayky Paulino</h5>
+                    <span class="material-icons-sharp">expand_more</span>
+                </div>
+                <button id="menu-btn">
+                    <span class="material-icons-sharp">menu</span>
                 </button>
+            </div>
+        </div>
+    </nav>
+    <!-- END OF NAVBAR -->
 
-                <div class="sidebar">
-                    <a href="#" class="active">
-                        <span class="material-icons-sharp">dashboard</span>
-                        <h4>Dashboard</h4>
-                    </a>
-                    <a href="#">
-                        <span class="material-icons-sharp">currency_exchange</span>
-                        <h4>Exchange</h4>
-                    </a>
-                    <a href="#">
-                        <span class="material-icons-sharp">account_balance_wallet</span>
-                        <h4>Wallet</h4>
-                    </a>
-                    <a href="#">
-                        <span class="material-icons-sharp">payment</span>
-                        <h4>Transactions</h4>
-                    </a>
-                    <a href="#">
-                        <span class="material-icons-sharp">pie_chart</span>
-                        <h4>Analytics</h4>
-                    </a>
-                    <a href="#">
-                        <span class="material-icons-sharp">message</span>
-                        <h4>Messages</h4>
-                    </a>
-                    <a href="#">
-                        <span class="material-icons-sharp">help_center</span>
-                        <h4>Help Center</h4>
-                    </a>
-                    <a href="#">
-                        <span class="material-icons-sharp">settings</span>
-                        <h4>Settings</h4>
-                    </a>
-                    
+    <main>
+        <aside>
+            <button id="close-btn">
+                <span class="material-icons-sharp">close</span>
+            </button>
+
+            <div class="sidebar">
+                <a href="#" class="active">
+                    <span class="material-icons-sharp">dashboard</span>
+                    <h4>Dashboard</h4>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">currency_exchange</span>
+                    <h4>Exchange</h4>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">account_balance_wallet</span>
+                    <h4>Wallet</h4>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">payment</span>
+                    <h4>Transactions</h4>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">pie_chart</span>
+                    <h4>Analytics</h4>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">message</span>
+                    <h4>Messages</h4>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">help_center</span>
+                    <h4>Help Center</h4>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">settings</span>
+                    <h4>Settings</h4>
+                </a>
+
+            </div>
+            <!------------------- END OF SIDEBAR ------------------->
+
+            <div class="updates">
+                <span class="material-icons-sharp">update</span>
+                <h4>Updates Available</h4>
+                <p>Security Updates</p>
+                <p>General Updates</p>
+                <a href="#">Updates Now</a>
+            </div>
+        </aside>
+        <!-- END OF ASIDE -->
+        <section class="middle">
+            <div class="header">
+                <h1>Overview</h1>
+                <input type="date">
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <div class="top">
+                        <div class="left">
+                            <img src="./src/img/BTC.png" alt="BITICOIN">
+                            <h2>BTC</h2>
+                        </div>
+                        <img src="./src/img/visa.png" alt="LOGO VISA" class="right">
+                    </div>
+                    <div class="middle">
+                        <h1>$827,199</h1>
+                        <div class="chip">
+                            <img src="./src/img/card chip.png" alt="Chip" >
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <div class="left">
+                            <small>Card Holder</small>
+                            <h5>JOHN DOE</h5>
+                        </div>
+                        <div class="right">
+                            <div class="expiry">
+                                <small>Expiry</small>
+                                <h5>08/23</h5>
+                            </div>
+                            <div class="cvv">
+                                <small>CVV</small>
+                                <h5>123</h5>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <!------------------- END OF SIDEBAR ------------------->
-
-                <div class="updates">
-                    <span class="material-icons-sharp">update</span>
-                    <h4>Updates Available</h4>
-                    <p>Security Updates</p>
-                    <p>General Updates</p>
-                    <a href="#">Updates Now</a>
+                <!-- END OF CARD 1 -->
+                <div class="card">
+                    <div class="top">
+                        <div class="left">
+                            <img src="./src/img/ETH.png" alt="ETH">
+                            <h2>ETH</h2>
+                        </div>
+                        <img src="./src/img/master card.png" alt="LOGO VISA" class="right">
+                    </div>
+                    <div class="middle">
+                        <h1>$95,623</h1>
+                        <div class="chip">
+                            <img src="./src/img/card chip.png" alt="Chip" >
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <div class="left">
+                            <small>Card Holder</small>
+                            <h5>JOHN DOE</h5>
+                        </div>
+                        <div class="right">
+                            <div class="expiry">
+                                <small>Expiry</small>
+                                <h5>08/23</h5>
+                            </div>
+                            <div class="cvv">
+                                <small>CVV</small>
+                                <h5>123</h5>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </aside>
-            <!-- END OF ASIDE -->
-            <section class="middle">
+                <!-- END OF CARD 2 -->
+                <div class="card">
+                    <div class="top">
+                        <div class="left">
+                            <img src="./src/img/BTC.png" alt="BITICOIN">
+                            <h2>BTC</h2>
+                        </div>
+                        <img src="./src/img/visa.png" alt="LOGO master card" class="right">
+                    </div>
+                    <div class="middle">
+                        <h1>$74,384</h1>
+                        <div class="chip">
+                            <img src="./src/img/card chip.png" alt="Chip" >
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <div class="left">
+                            <small>Card Holder</small>
+                            <h5>JOHN DOE</h5>
+                        </div>
+                        <div class="right">
+                            <div class="expiry">
+                                <small>Expiry</small>
+                                <h5>08/24</h5>
+                            </div>
+                            <div class="cvv">
+                                <small>CVV</small>
+                                <h5>123</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END OF CARD 3 -->
+            </div>
+            <!-- END OF CARDS -->
+        </section>
+        <!-- END OF MIDDLE -->
 
-            </section>
-            <!-- END OF MIDDLE -->
+        <section class="right">
 
-            <section class="right">
-
-            </section>
-            <!-- END OF RIGHT -->
-        </main>
-        <!--==================== END OF ASIDE ====================-->
+        </section>
+        <!-- END OF RIGHT -->
+    </main>
+    <!--==================== END OF ASIDE ====================-->
 </body>
+
 </html>
